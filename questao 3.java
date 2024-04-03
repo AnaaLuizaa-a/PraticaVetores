@@ -4,7 +4,7 @@ public class Main {
         Scanner entrada = new Scanner(System.in);
 
         int[] vetor1 = new int[10];
-        int soma=0;
+        double soma=0;
 
         // Preenche o primeiro vetor com dez números inteiros
       for (int i = 0; i < vetor1.length; i++) {
@@ -18,6 +18,7 @@ public class Main {
       }
 
       // Imprime a soma dos elementos do vetor
-      System.out.println("A soma dos elementos do vetor é: " + soma);
+        double media=soma/10;
+      System.out.println("A média dos elementos do vetor é: " + media);
     }
 }
